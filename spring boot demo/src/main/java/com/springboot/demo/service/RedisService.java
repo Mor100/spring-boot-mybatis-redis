@@ -5,4 +5,5 @@ public interface RedisService {
     Object get(String key);
     boolean remove(String key);
     boolean isExist(String key);
+    void init(String password);
 }
